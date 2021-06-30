@@ -1,0 +1,67 @@
+* {
+    background: rgb(65, 63, 63);
+    color: white;
+}
+
+.head-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-button-group{
+    padding: 25px;
+}
+
+.composer-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+button {
+    padding: 10px;
+    background: lightseagreen;
+    font-size: 18px;
+}
+
+.grid-item {
+    border: 1px solid white;
+    background: rgb(64, 168, 202);
+    font-size: 12px;
+}
+
+.grid-item:hover {
+    background: greenyellow;
+}
+
+.grid-item-8 {
+    border-right: 6px solid black;
+}
+
+.instrument {
+    display: flex;
+    height: 50px;
+}
+
+.music-container {
+    display: grid;
+    grid-template-columns: repeat(24, 40px);
+    grid-template-rows: repeat(10, 40px);
+    
+}
+
+.input {
+    height: 18px;
+    padding: 10px;
+    border: 1px solid white;
+    background: white;
+    margin-right: 2px;
+}
+
+.mute-button {
+    padding: 10px;
+    height: 40px;
+    background: rgb(218, 53, 53);
+    font-size: 18px;
+    border: 1px solid white;
+    margin: 2px;
+}
