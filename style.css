@@ -63,17 +63,18 @@ button {
 }
 
 .mute-button {
-    padding: 10px;
+    
     height: 40px;
     background: rgb(218, 53, 53);
     font-size: 18px;
     border: 1px solid white;
-    margin: 2px;
+    
 }
 
-.btn {
-    background:rgb(64, 168, 202) !important;
-    padding: 8px !important;
-    margin: 0 4px 0 1px;
-    border: 1px solid white !important;
+.form-control, .form-label {
+   padding: 5px;
+   height: 41px;
+   margin-right: 5px;
+   
 }
+
