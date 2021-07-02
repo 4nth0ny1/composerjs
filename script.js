@@ -6,6 +6,6 @@ gridItems.forEach(gridItem => {
     })
 })
 
-addMusicToGrid(){
+function selectInstrument() {
     
 }
