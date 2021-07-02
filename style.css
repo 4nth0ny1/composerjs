@@ -1,80 +1,81 @@
 * {
-    background: rgb(65, 63, 63);
-    color: white;
+  background: rgb(65, 63, 63);
+  color: white;
 }
 
 body {
-    background:rgb(65, 63, 63) !important;
+  background: rgb(65, 63, 63) !important;
 }
 
-.head-container{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid white;
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
 }
 
-.head-button-group{
-    padding: 25px;
+.head-button-group {
+  padding: 25px;
 }
 
 .composer-container {
-    display: flex;
-    flex-direction: column; 
+  display: flex;
+  flex-direction: column;
 }
 
 button {
-    padding: 10px;
-    background: lightseagreen;
-    font-size: 18px;
+  padding: 10px;
+  background: lightseagreen;
+  font-size: 18px;
 }
 
 .grid-item {
-    border: 1px solid white;
-    background: rgb(64, 168, 202);
-    font-size: 12px;
+  border: 1px solid white;
+  background: rgb(64, 168, 202);
+  font-size: 12px;
 }
 
 .grid-item:hover {
-    background: greenyellow;
+  background: greenyellow;
 }
 
 .grid-item-8 {
-    border-right: 6px solid black;
+  border-right: 6px solid black;
 }
 
 .instrument {
-    display: flex;
-    height: 50px;
+  display: flex;
+  height: 50px;
 }
 
 .music-container {
-    display: grid;
-    grid-template-columns: repeat(24, 40px);
-    grid-template-rows: repeat(10, 40px);
-    
+  display: grid;
+  grid-template-columns: repeat(24, 40px);
+  grid-template-rows: repeat(10, 40px);
 }
 
 .input {
-    height: 18px;
-    padding: 10px;
-    border: 1px solid white;
-    background: white;
-    margin-right: 2px;
+  height: 18px;
+  padding: 10px;
+  border: 1px solid white;
+  background: white;
+  margin-right: 2px;
 }
 
 .mute-button {
-    
-    height: 40px;
-    background: rgb(218, 53, 53);
-    font-size: 18px;
-    border: 1px solid white;
-    
+  height: 40px;
+  background: rgb(218, 53, 53);
+  font-size: 18px;
+  border: 1px solid white;
 }
 
-.form-control, .form-label {
-   padding: 5px;
-   height: 41px;
-   margin-right: 5px;
-   
+.form-control,
+.form-label {
+  padding: 5px;
+  height: 41px;
+  margin-right: 5px;
 }
 
+.form-control {
+  min-width: 300px !important;
+  max-width: 300px !important;
+}

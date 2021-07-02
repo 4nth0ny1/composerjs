@@ -5,7 +5,6 @@ gridItems.forEach(gridItem => {
         e.preventDefault()
         const instrument = document.getElementById('customFile').value
         gridItem.append(instrument)
-        
     })
 })
 
